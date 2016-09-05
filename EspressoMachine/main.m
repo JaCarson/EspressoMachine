@@ -7,11 +7,24 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EspressoMachine.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        EspressoMachine *machine = [[EspressoMachine alloc] init];
+        Barista *Meg = [[Barista alloc] init];
+        machine.delegate = Meg;
+        [machine addBeans];
+        [machine addWater];
+        [machine makeEspresso];
+        
+        
+        
+        
+        
+        
+        
     }
     return 0;
 }

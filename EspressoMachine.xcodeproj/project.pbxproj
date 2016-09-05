@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		529C9D081D78F38D008E1A9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 529C9D071D78F38D008E1A9C /* main.m */; };
+		529C9D231D7CF8F6008E1A9C /* Implementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 529C9D221D7CF8F6008E1A9C /* Implementation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		529C9D041D78F38D008E1A9C /* EspressoMachine */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EspressoMachine; sourceTree = BUILT_PRODUCTS_DIR; };
 		529C9D071D78F38D008E1A9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		529C9D0E1D78F3E9008E1A9C /* EspressoMachine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EspressoMachine.h; sourceTree = "<group>"; };
+		529C9D221D7CF8F6008E1A9C /* Implementation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Implementation.m; sourceTree = "<group>"; };
+		529C9D241D7CFE77008E1A9C /* Delegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Delegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				529C9D071D78F38D008E1A9C /* main.m */,
+				529C9D0E1D78F3E9008E1A9C /* EspressoMachine.h */,
+				529C9D221D7CF8F6008E1A9C /* Implementation.m */,
+				529C9D241D7CFE77008E1A9C /* Delegate.h */,
 			);
 			path = EspressoMachine;
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				529C9D081D78F38D008E1A9C /* main.m in Sources */,
+				529C9D231D7CF8F6008E1A9C /* Implementation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +254,7 @@
 				529C9D0D1D78F38D008E1A9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
