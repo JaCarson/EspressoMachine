@@ -17,6 +17,7 @@ int main(int argc, const char * argv[]) {
         machine.delegate = Meg;
         [machine addBeans];
         [machine addWater];
+        [machine heatWater];
         [machine makeEspresso];
         
         
